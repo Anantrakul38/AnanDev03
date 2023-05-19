@@ -31,6 +31,7 @@
             border-top: var(--border);
             border-bottom: var(--border);
             clip-path: polygon(0 0, 100% 0, 0 0);
+            transition: .2s linear;
 
             &.active {
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
